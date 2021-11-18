@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Natsu Deguchi -->
+
+<head>
+		<title>ASSIGNMENT 06</title>
+		<meta charset="utf-8" />
+		
+		<link rel="stylesheet" href="css/style07.css">
+        <script src="script/jquery-3.4.1.min.js" defer="defer"></script>
+        <script src="script/assignment06.js" defer="defer"></script>
+        				
+</head>
+
+<body>
+
+    <div class="wrapper">
+ 
+        <header>ASSIGNMENT 06</header>
+       
+        <div class="container">
+
+
+          <div class="main">
+
+                <div class="slide-container">
+                    <img class="slide" id="slide" src="images/t-shirt-black-no-model.jpg" alt="Black t-shirt">
+                </div>
+                
+                <div class="slide-thumbnails-container">
+                    <div class="th th-no-model" id="th-no-model">
+                        <a href="images/t-shirt-black-no-model.jpg">
+                            <img src="images/t-shirt-black-no-model.jpg" alt="Black T-shirt">
+                        </a>    
+                    </div>
+                    
+                    <div class="th th-front" id="th-front">
+                        <a href="images/t-shirt-black-front.jpg">
+                            <img src="images/t-shirt-black-front.jpg" alt="Black t-shirt front view">
+                        </a>    
+                    </div>
+                    
+                    <div class="th th-back" id="th-back">
+                        <a href="images/t-shirt-black-back.jpg">
+                            <img src="images/t-shirt-black-back.jpg" alt="Black t-shirt back view">
+                        </a>    
+                    </div>
+           
+            </div>
+          
+        </div>
+
+
+      
+        <div class="side">
+                    <p><strong>Price: </strong>$30.00</p>
+
+            <div class="space"></div>
+
+            <form action="thank-you.html" id="t-shirt-form">
+                <div class="color">
+                    <div>
+                    <strong>Colour: </strong>
+                    <span id="selected-color-out">Black</span>
+                    </div>
+
+                    <div class="space"></div>
+                    
+                    <div>
+                        <input id="t-shirt-color-black" type="radio" name="shirt-color" value="black" checked>
+                        <label for="t-shirt-color-black">Black</label>
+                    </div>
+
+                    <div>
+                        <input id="t-shirt-color-red" type="radio" name="shirt-color" value="red">
+                        <label for="t-shirt-color-red">Red</label>
+                    </div>
+
+                    <div>
+                        <input id="t-shirt-color-grey" type="radio" name="shirt-color" value="grey">
+                        <label for="t-shirt-color-grey">Grey</label>
+                    </div>
+                </div>
+
+                <div class="space"></div>
+
+
+                <div class="size">
+                    
+                    <div>
+                        <strong>Size: </strong>
+                        <span id="selected-size-out">Choose:</span>
+                    </div>
+
+                    <div class="space"></div>
+
+                        <div>
+                            <input id="t-shirt-size-small" type="radio" name="shirt-size" value="S">
+                            <label for="t-shirt-size-small">Small S</label>
+                        </div>
+                        
+                        <div>
+                            <input id="t-shirt-size-medium" type="radio" name="shirt-size" value="M">
+                            <label for="t-shirt-size-medium">Medium M</label>
+                        </div>
+
+                        <div>
+                            <input id="t-shirt-size-large" type="radio" name="shirt-size" value="L">
+                            <label for="t-shirt-size-large">Large L</label>
+                        </div>    
+                </div>
+
+            </form>
+
+            <div class="space"></div>
+
+
+            <div class="form-submit-container">
+                <input type="submit" value="Choose a size" form="t-shirt-form" id="add-to-cart" disabled>
+            </div>
+            
+        </div>
+    </div>
+</section>
+        
+        
+
+       
+    
+    <footer>Natsu Deguchi</footer>
+</div>
+</div>
+
+</body>
+</html>
